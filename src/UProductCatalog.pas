@@ -1,0 +1,13 @@
+unit UProductCatalog;
+
+interface
+
+type
+
+  TProductCatalog = class
+
+  end;
+
+implementation
+
+end.
