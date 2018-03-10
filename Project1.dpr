@@ -2,7 +2,6 @@ program Project1;
 
 uses
   Vcl.Forms,
-  Unit1 in 'src\Unit1.pas' {Form1},
   URegister in 'src\URegister.pas',
   UItem in 'src\UItem.pas',
   UStore in 'src\UStore.pas',
@@ -13,7 +12,8 @@ uses
   ULedger in 'src\ULedger.pas',
   UCashPayment in 'src\UCashPayment.pas',
   UProductCatalog in 'src\UProductCatalog.pas',
-  UProductDescription in 'src\UProductDescription.pas';
+  UProductDescription in 'src\UProductDescription.pas',
+  Unit1 in 'ui\Unit1.pas' {Form1};
 
 {$R *.res}
 
