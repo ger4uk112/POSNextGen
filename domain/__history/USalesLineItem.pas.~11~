@@ -1,0 +1,26 @@
+unit USalesLineItem;
+
+interface
+
+uses
+  UMoney;
+
+type
+
+  TSalesLineItem = class
+  private
+    quantity: integer;
+  public
+    function getSubtotal: Currency;
+  end;
+
+implementation
+
+{ TSalesLineItem }
+
+function TSalesLineItem.getSubtotal: Currency;
+begin
+  result := 0;
+end;
+
+end.

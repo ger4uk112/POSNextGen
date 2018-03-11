@@ -1,0 +1,41 @@
+unit URegister;
+
+interface
+
+type
+
+  TRegister = class
+  private
+    // ...
+  public
+    procedure andSale;
+    procedure enterItem; // (...)
+    procedure makeNewSale;
+    procedure makePayment; // (...)
+  end;
+
+implementation
+
+{ TRegister }
+
+procedure TRegister.andSale;
+begin
+  //
+end;
+
+procedure TRegister.enterItem;
+begin
+  //
+end;
+
+procedure TRegister.makeNewSale;
+begin
+  //
+end;
+
+procedure TRegister.makePayment;
+begin
+  //
+end;
+
+end.

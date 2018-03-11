@@ -1,0 +1,11 @@
+unit UMoney;
+
+interface
+
+type
+
+  TMoney = Currency;
+
+implementation
+
+end.

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.004,C:\Users\farid\Documents\GitHub\POSNextGen\Unit2.pas=C:\Users\farid\Documents\GitHub\POSNextGen\domain\USale.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.356,=C:\Users\farid\Documents\GitHub\POSNextGen\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.165,C:\Users\farid\Documents\GitHub\POSNextGen\Unit2.pas=C:\Users\farid\Documents\GitHub\POSNextGen\domain\URegister.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.492,=C:\Users\farid\Documents\GitHub\POSNextGen\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.570,C:\Users\farid\Documents\GitHub\POSNextGen\Unit2.pas=C:\Users\farid\Documents\GitHub\POSNextGen\domain\UPayment.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.963,=C:\Users\farid\Documents\GitHub\POSNextGen\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.219,=C:\Users\farid\Documents\GitHub\POSNextGen\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.961,C:\Users\Администратор\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\farid\Documents\GitHub\POSNextGen\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.532,C:\Users\farid\Documents\GitHub\POSNextGen\Unit1.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.909,=C:\Users\farid\Documents\GitHub\POSNextGen\ui\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.155,C:\Users\farid\Documents\GitHub\POSNextGen\Unit2.pas=C:\Users\farid\Documents\GitHub\POSNextGen\domain\Ustore.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.338,=C:\Users\farid\Documents\GitHub\POSNextGen\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.386,C:\Users\farid\Documents\GitHub\POSNextGen\Unit2.pas=C:\Users\farid\Documents\GitHub\POSNextGen\domain\UAddress.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.668,C:\Users\farid\Documents\GitHub\POSNextGen\Unit2.pas=C:\Users\farid\Documents\GitHub\POSNextGen\domain\UProductCatalog.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.171,=C:\Users\Администратор\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.986,C:\Users\Администратор\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\farid\Documents\GitHub\POSNextGen\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.986,C:\Users\Администратор\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\farid\Documents\GitHub\POSNextGen\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.557,=C:\Users\Администратор\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.666,=C:\Users\Администратор\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.376,=C:\Users\Администратор\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.266,C:\Users\farid\Documents\GitHub\POSNextGen\domain\Ustore.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.276,=C:\Users\farid\Documents\GitHub\POSNextGen\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.026,C:\Users\farid\Documents\GitHub\POSNextGen\Unit2.pas=C:\Users\farid\Documents\GitHub\POSNextGen\domain\UProductDescription.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.186,=C:\Users\farid\Documents\GitHub\POSNextGen\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.202,C:\Users\farid\Documents\GitHub\POSNextGen\Unit2.pas=C:\Users\farid\Documents\GitHub\POSNextGen\domain\USalesLineItem.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.411,=C:\Users\farid\Documents\GitHub\POSNextGen\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.299,=C:\Users\farid\Documents\GitHub\POSNextGen\domain\UStore.pas</Transaction>
+    <Transaction>2018.03.11 06:17:40.763,=C:\Users\farid\Documents\GitHub\POSNextGen\Unit2.pas</Transaction>
+    <Transaction>2018.03.11 06:18:00.638,C:\Users\farid\Documents\GitHub\POSNextGen\domain\Unit2.pas=C:\Users\farid\Documents\GitHub\POSNextGen\Unit2.pas</Transaction>
+    <Transaction>2018.03.11 06:18:06.297,C:\Users\farid\Documents\GitHub\POSNextGen\domain\Unit2.pas=</Transaction>
+    <Transaction>2018.03.11 06:18:26.121,=C:\Users\farid\Documents\GitHub\POSNextGen\domain\UMoney.pas</Transaction>
+    <Transaction>2018.03.11 06:30:11.471,=C:\Users\farid\Documents\GitHub\POSNextGen\Unit2.pas</Transaction>
+    <Transaction>2018.03.11 06:30:42.655,C:\Users\farid\Documents\GitHub\POSNextGen\domain\UItemID.pas=C:\Users\farid\Documents\GitHub\POSNextGen\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

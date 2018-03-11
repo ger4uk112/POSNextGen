@@ -2,18 +2,17 @@ program Project1;
 
 uses
   Vcl.Forms,
-  Unit1 in 'src\Unit1.pas' {Form1},
-  URegister in 'src\URegister.pas',
-  UItem in 'src\UItem.pas',
-  UStore in 'src\UStore.pas',
-  USale in 'src\USale.pas',
-  USalesLineItem in 'src\USalesLineItem.pas',
-  UCashier in 'src\UCashier.pas',
-  UCustomer in 'src\UCustomer.pas',
-  ULedger in 'src\ULedger.pas',
-  UCashPayment in 'src\UCashPayment.pas',
-  UProductCatalog in 'src\UProductCatalog.pas',
-  UProductDescription in 'src\UProductDescription.pas';
+  Unit1 in 'ui\Unit1.pas' {Form1},
+  USalesLineItem in 'domain\USalesLineItem.pas',
+  UProductDescription in 'domain\UProductDescription.pas',
+  UProductCatalog in 'domain\UProductCatalog.pas',
+  UPayment in 'domain\UPayment.pas',
+  USale in 'domain\USale.pas',
+  URegister in 'domain\URegister.pas',
+  UStore in 'domain\UStore.pas',
+  UAddress in 'domain\UAddress.pas',
+  UMoney in 'domain\UMoney.pas',
+  UItemID in 'domain\UItemID.pas';
 
 {$R *.res}
 

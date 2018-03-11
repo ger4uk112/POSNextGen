@@ -1,0 +1,13 @@
+unit UStore;
+
+interface
+
+type
+
+  UStore = class
+
+  end;
+
+implementation
+
+end.

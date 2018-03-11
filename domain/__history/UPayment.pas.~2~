@@ -1,0 +1,18 @@
+unit UPayment;
+
+interface
+
+uses
+  UMoney;
+
+type
+  TPayment = class
+  private
+    amount: TMoney;
+  public
+  // ...
+  end;
+
+implementation
+
+end.

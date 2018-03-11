@@ -1,0 +1,11 @@
+unit UMoney;
+
+interface
+
+type
+
+  TMoney = class(Currency);
+
+implementation
+
+end.
