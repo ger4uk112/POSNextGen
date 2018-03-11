@@ -16,6 +16,7 @@ type
     procedure enterItem;
     procedure makeNewSale;
     procedure makePayment;
+    function getPrice: TMoney;
   end;
 
 implementation
@@ -28,6 +29,11 @@ begin
 end;
 
 procedure TProductDescription.enterItem;
+begin
+  //
+end;
+
+function TProductDescription.getPrice: TMoney;
 begin
   //
 end;

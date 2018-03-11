@@ -8,7 +8,7 @@ type
   private
     // ...
   public
-    procedure getProductDesc;
+    procedure getProductDesc; // (itemID)
   end;
 
 implementation
@@ -17,7 +17,8 @@ implementation
 
 procedure TProductCatalog.getProductDesc;
 begin
-  //
+  //  desc := get(id)
+  // create Map TProductDescription
 end;
 
 end.

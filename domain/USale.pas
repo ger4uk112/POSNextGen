@@ -3,8 +3,8 @@ unit USale;
 interface
 
 uses
-  UMoney, UPayment, Classes, USalesLineItem, Contnrs,
-  System.SysUtils, Generics.Collections;
+  Classes, Contnrs, System.SysUtils, Generics.Collections,
+  UMoney, UPayment, USalesLineItem, UProductDescription;
 
 type
   TSale = class
@@ -18,6 +18,7 @@ type
     procedure makeLineItem;
     procedure makePayment(cachTendered: TMoney);
     function getTotal: TMoney;
+    procedure updatePriceFor(ProductDescription: TProductDescription);
     // ...
   published
     constructor create;
@@ -34,7 +35,7 @@ end;
 
 constructor TSale.create;
 begin
-  lineItems := TObjectList<TSalesLineItem>.create;
+  //lineItems := TObjectList<TSalesLineItem>.create;
 end;
 
 function TSale.getTotal: TMoney;
@@ -55,14 +56,19 @@ end;
 
 procedure TSale.makeLineItem;
 begin
-  //
+  lineItems := TObjectList<TSalesLineItem>.create;
 end;
 
 procedure TSale.makePayment(cachTendered: TMoney);
 begin
-  Payment := TPayment.create;
+  Payment := TPayment.create;// (cachTendered)
   // Payment.autorize
   Payment.Destroy;
+end;
+
+procedure TSale.updatePriceFor(ProductDescription: TProductDescription);
+begin
+  //
 end;
 
 end.

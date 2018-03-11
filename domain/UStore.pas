@@ -12,16 +12,22 @@ type
     address: TAddress;
     name: Text;
   public
-    procedure addSale; //(...)
+    procedure addSale; // (s: TSale)
+    procedure addCompleteSale;
   end;
 
 implementation
 
 { TStore }
 
-procedure TStore.addSale; //(...)
+procedure TStore.addCompleteSale;
 begin
-//
+  //
+end;
+
+procedure TStore.addSale; // (...)
+begin
+  //
 end;
 
 end.

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="g1jflp40t9dujo6xj_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Project1:USale.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:USale.TSale">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,229,221" />
+      <reference referencedUin="delphi:e_field:src:Project1:USale.TSale.isComplite" />
+      <reference referencedUin="delphi:e_field:src:Project1:USale.TSale.time" />
+      <reference referencedUin="delphi:e_field:src:Project1:USale.TSale.Payment" />
+      <reference referencedUin="delphi:e_field:src:Project1:USale.TSale.lineItems" />
+      <reference referencedUin="delphi:e_method:src:Project1:USale.TSale.becomeComplete()" />
+      <reference referencedUin="delphi:e_method:src:Project1:USale.TSale.makeLineItem()" />
+      <reference referencedUin="delphi:e_method:src:Project1:USale.TSale.makePayment(UMoney.TMoney)" />
+      <reference referencedUin="delphi:e_method:src:Project1:USale.TSale.getTotal()" />
+      <reference referencedUin="delphi:e_method:src:Project1:USale.TSale.updatePriceFor(UProductDescription.TProductDescription)" />
+      <reference referencedUin="delphi:e_method:src:Project1:USale.TSale.create()" />
+    </reference>
+  </view>
+</nodeSet>
