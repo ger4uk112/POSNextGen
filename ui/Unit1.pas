@@ -18,8 +18,10 @@ type
     Button2: TButton;
     procedure actionPerformed(Sender: TObject);
     procedure Button2Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
   private
-    Registe: TRegister;
+    /// <link>aggregation</link>
+    Regicter: TRegister;
   public
     { Public declarations }
   end;
@@ -32,13 +34,24 @@ implementation
 {$R *.dfm}
 
 procedure TForm1.actionPerformed(Sender: TObject);
+var
+  id: integer;
+  qty: integer;
 begin
-  //Registe.enterItem();
+  // Registe.enterItem();
+  id:= strtoint(Edit1.Text);
+  qty:= strtoint(Edit2.Text);
+  Regicter.enterItem(id, qty);
 end;
 
 procedure TForm1.Button2Click(Sender: TObject);
 begin
   //
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+  Regicter := TRegister.create;
 end;
 
 end.

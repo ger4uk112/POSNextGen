@@ -3,9 +3,7 @@ unit UItemID;
 interface
 
 type
-  TItemID = class
-
-  end;
+  TItemID = integer;
 
 implementation
 

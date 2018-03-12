@@ -18,9 +18,16 @@ type
     /// <link>aggregation</link>
     Address: TAddress; // TList
   public
-
+    procedure addSale;
   end;
 
 implementation
+
+{ TStore }
+
+procedure TStore.addSale;
+begin
+  //
+end;
 
 end.
