@@ -1,10 +1,10 @@
-unit UCashier;
+unit UAddress;
 
 interface
 
 type
-  TCashier = class
-  private
+
+  TAddress = class
 
   end;
 

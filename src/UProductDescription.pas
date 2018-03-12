@@ -2,23 +2,21 @@ unit UProductDescription;
 
 interface
 
+uses UItemID, UMoney;
+
 type
   TProductDescription = class
   private
-    itemID: integer;
-    description: string;
-    price: integer;
+    description: Text;
+    /// <link>aggregation</link>
+    price: TMoney;
+    /// <link>aggregation</link>
+    ItemID: TItemID;
   public
-    function getPrice: integer;
+
   end;
 
 implementation
 
-{ TProductDescription }
-
-function TProductDescription.getPrice: integer;
-begin
-  result := 0;
-end;
 
 end.

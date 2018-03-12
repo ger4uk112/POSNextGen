@@ -2,20 +2,19 @@ unit UProductCatalog;
 
 interface
 
+uses uproductdescription;
+
 type
 
   TProductCatalog = class
+  private
+    /// <link>aggregation</link>
+    ProductDescription: TProductDescription; // TList
   public
-    procedure getProductDescription(itemID: integer);
+
   end;
 
 implementation
 
-{ TProductCatalog }
-
-procedure TProductCatalog.getProductDescription(itemID: integer);
-begin
-//
-end;
 
 end.

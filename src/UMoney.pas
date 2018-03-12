@@ -1,10 +1,10 @@
-unit UCashier;
+unit UMoney;
 
 interface
 
 type
-  TCashier = class
-  private
+
+  TMoney = class
 
   end;
 

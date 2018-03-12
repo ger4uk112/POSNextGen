@@ -2,25 +2,21 @@ unit URegister;
 
 interface
 
-uses
-
-  UCashPayment, USale, UProductCatalog;
+uses usale, uproductcatalog, UItemID;
 
 type
   TRegister = class
   private
-    id: integer;
-    p: TPayment;
-    Sale: TSale;
-    ProductCatalog: TProductCatalog;
+    /// <link>aggregation</link>
+    CurrentSale: TSale;
+    /// <link>aggregation</link>
+    Catalog: TProductCatalog;
   public
+    procedure PRegister(pc: TProductCatalog);
     procedure endSale;
-    procedure enterItem(id: integer; qty: integer);
+    procedure enterItem(id: TItemID; qty: integer);
     procedure makeNewSale;
-    procedure makePayment; // (cashTendered);
-
-    procedure makeNewReturn;
-    procedure enterReturnItem;
+    procedure makePaymenr;
   end;
 
 implementation
@@ -32,18 +28,7 @@ begin
   //
 end;
 
-procedure TRegister.enterItem(id: integer; qty: integer);
-begin
-  // Sale.makeLineItem(id, qty);
-  // ProductCatalog.getProductDescription()
-end;
-
-procedure TRegister.enterReturnItem;
-begin
-  //
-end;
-
-procedure TRegister.makeNewReturn;
+procedure TRegister.enterItem(id: TItemID; qty: integer);
 begin
   //
 end;
@@ -53,12 +38,14 @@ begin
   //
 end;
 
-procedure TRegister.makePayment; // (cashTendered);
+procedure TRegister.makePaymenr;
 begin
-  // p.create
-  // Sale.Create;
-  // Sale.addPayment
-  // Sale.makePayment;
+  //
+end;
+
+procedure TRegister.PRegister(pc: TProductCatalog);
+begin
+  //
 end;
 
 end.

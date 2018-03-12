@@ -10,10 +10,13 @@ uses
   UCashier in 'src\UCashier.pas',
   UCustomer in 'src\UCustomer.pas',
   ULedger in 'src\ULedger.pas',
-  UCashPayment in 'src\UCashPayment.pas',
   UProductCatalog in 'src\UProductCatalog.pas',
   UProductDescription in 'src\UProductDescription.pas',
-  Unit1 in 'ui\Unit1.pas' {Form1};
+  Unit1 in 'ui\Unit1.pas' {Form1},
+  UPayment in 'src\UPayment.pas',
+  UAddress in 'src\UAddress.pas',
+  UMoney in 'src\UMoney.pas',
+  UItemID in 'src\UItemID.pas';
 
 {$R *.res}
 

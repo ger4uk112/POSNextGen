@@ -93,12 +93,40 @@
 			<DCCReference Include="src\UCashier.pas"/>
 			<DCCReference Include="src\UCustomer.pas"/>
 			<DCCReference Include="src\ULedger.pas"/>
-			<DCCReference Include="src\UCashPayment.pas"/>
 			<DCCReference Include="src\UProductCatalog.pas"/>
 			<DCCReference Include="src\UProductDescription.pas"/>
 			<DCCReference Include="ui\Unit1.pas">
 				<Form>Form1</Form>
 			</DCCReference>
+			<DCCReference Include="src\UPayment.pas"/>
+			<DCCReference Include="src\UAddress.pas"/>
+			<DCCReference Include="src\UMoney.pas"/>
+			<DCCReference Include="src\UItemID.pas"/>
+			<None Include="ModelSupport_Project1\default.txaPackage"/>
+			<None Include="ModelSupport_Project1\default.txvpck"/>
+			<None Include="ModelSupport_Project1\URegister\default.txvpck"/>
+			<None Include="ModelSupport_Project1\Project1\default.txvpck"/>
+			<None Include="ModelSupport_Project1\URegister\default.txaPackage"/>
+			<None Include="ModelSupport_Project1\UStore\default.txvpck"/>
+			<None Include="ModelSupport_Project1\UProductCatalog\default.txvpck"/>
+			<None Include="ModelSupport_Project1\USale\default.txvpck"/>
+			<None Include="ModelSupport_Project1\UProductDescription\default.txvpck"/>
+			<None Include="ModelSupport_Project1\USalesLineItem\default.txvpck"/>
+			<None Include="ModelSupport_Project1\UPayment\default.txaPackage"/>
+			<None Include="ModelSupport_Project1\UCashPayment\default.txaPackage"/>
+			<None Include="ModelSupport_Project1\UCashPayment\default.txvpck"/>
+			<None Include="ModelSupport_Project1\UPayment\default.txvpck"/>
+			<None Include="ModelSupport_Project1\UAddress\default.txaPackage"/>
+			<None Include="ModelSupport_Project1\UAddress\default.txvpck"/>
+			<None Include="ModelSupport_Project1\UMoney\default.txaPackage"/>
+			<None Include="ModelSupport_Project1\UMoney\default.txvpck"/>
+			<None Include="ModelSupport_Project1\UItemID\default.txaPackage"/>
+			<None Include="ModelSupport_Project1\UItemID\default.txvpck"/>
+			<None Include="ModelSupport_Project1\UStore\default.txaPackage"/>
+			<None Include="ModelSupport_Project1\UProductCatalog\default.txaPackage"/>
+			<None Include="ModelSupport_Project1\USale\default.txaPackage"/>
+			<None Include="ModelSupport_Project1\UProductDescription\default.txaPackage"/>
+			<None Include="ModelSupport_Project1\USalesLineItem\default.txaPackage"/>
 			<BuildConfiguration Include="Release">
 				<Key>Cfg_2</Key>
 				<CfgParent>Base</CfgParent>
@@ -158,6 +186,7 @@
 					<Platform value="Win64">False</Platform>
 					<Platform value="Win32">True</Platform>
 				</Platforms>
+				<ModelSupport>True</ModelSupport>
 			</BorlandProject>
 			<ProjectFileVersion>12</ProjectFileVersion>
 		</ProjectExtensions>

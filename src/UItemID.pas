@@ -1,10 +1,9 @@
-unit UCashier;
+unit UItemID;
 
 interface
 
 type
-  TCashier = class
-  private
+  TItemID = class
 
   end;
 
