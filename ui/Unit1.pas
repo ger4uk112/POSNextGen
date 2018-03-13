@@ -6,7 +6,7 @@ uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
   System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls,
-  URegister;
+  URegister, UProductCatalog;
 
 type
   TForm1 = class(TForm)
@@ -22,6 +22,7 @@ type
   private
     /// <link>aggregation</link>
     Regicter: TRegister;
+    catalog: TProductCatalog;
   public
     { Public declarations }
   end;
@@ -34,8 +35,15 @@ implementation
 {$R *.dfm}
 
 procedure TForm1.actionPerformed(Sender: TObject);
+var
+  id: integer;
+  qty: integer;
 begin
-  //
+  // Registe.enterItem();
+  id:= strtoint(Edit1.Text);
+  qty:= strtoint(Edit2.Text);
+  Regicter.makeNewSale;
+  Regicter.enterItem(id, qty);
 end;
 
 procedure TForm1.Button2Click(Sender: TObject);
@@ -45,7 +53,9 @@ end;
 
 procedure TForm1.FormCreate(Sender: TObject);
 begin
-  //
+    catalog:= TProductCatalog.create;
+    Regicter:= TRegister.create(catalog);
+
 end;
 
 end.

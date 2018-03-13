@@ -25,6 +25,7 @@ implementation
 constructor TProductCatalog.create;
 begin
   descriptions := TDictionary<TItemID, TProductDescription>.create;
+  productCatalog;
 end;
 
 function TProductCatalog.getProductDescription(id: TItemID)
