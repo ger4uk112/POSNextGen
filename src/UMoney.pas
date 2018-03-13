@@ -4,9 +4,7 @@ interface
 
 type
 
-  TMoney = class
-
-  end;
+  TMoney = integer;
 
 implementation
 

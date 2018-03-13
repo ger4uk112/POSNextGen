@@ -17,7 +17,8 @@ type
   public
     procedure PRegister(pc: TProductCatalog);
     procedure endSale;
-    procedure enterItem(id: integer; qty: integer); // (id: TItemID; qty: integer)
+    procedure enterItem(id: integer; qty: integer);
+    // (id: TItemID; qty: integer)
     procedure makeNewSale;
     procedure makePaymenr;
   end;
@@ -28,8 +29,8 @@ implementation
 
 constructor TRegister.create;
 begin
-  Catalog:= TProductCatalog.Create;
-  CurrentSale:= TSale.Create;
+  Catalog := TProductCatalog.create;
+  CurrentSale := TSale.create;
 end;
 
 procedure TRegister.endSale;
@@ -37,14 +38,14 @@ begin
   //
 end;
 
-procedure TRegister.enterItem(id: integer; qty: integer);
+procedure TRegister.enterItem(id, qty: integer);
 var
-  spec: TProductDescription;
+  desc: TProductDescription;
   itemID: TItemID;
 begin
-  itemID:= id;
-  spec := Catalog.getProductSpec(itemID); // itemID: TItemID
-  CurrentSale.addLineItem(spec, qty);
+  itemID := id;
+  desc := Catalog.getProductDesc(itemID); // itemID: TItemID
+  CurrentSale.addLineItem(desc, qty);
 end;
 
 procedure TRegister.makeNewSale;

@@ -9,18 +9,18 @@ type
   TProductCatalog = class
   private
     /// <link>aggregation</link>
-    ProductDescription: TObjectList<TProductDescription>; // TList
+    description: TObjectList<TProductDescription>; // TList
   public
-    function getProductSpec(itemID: TItemID): TProductDescription;
+    function getProductDesc(itemID: TItemID): TProductDescription;
   end;
 
 implementation
 
 { TProductCatalog }
 
-function TProductCatalog.getProductSpec(itemID: TItemID): TProductDescription;  // itemID: TItemID
+function TProductCatalog.getProductDesc(itemID: TItemID): TProductDescription;
 begin
-  //
+  result := description.Items(itemID);
 end;
 
 end.

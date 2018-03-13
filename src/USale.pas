@@ -18,7 +18,7 @@ type
     Payment: TPayment;
   public
     procedure becomeComplete;
-    procedure makeLineItem(quantity: integer);
+    procedure makeLineItem(quantity: integer); //s addLineItem
     procedure makePayment;
     function getTotal: TMoney;
     procedure addLineItem(spec: TProductDescription; quantity: integer);
@@ -49,8 +49,8 @@ var
   I: integer;
 begin
   lineItem := TObjectList<TSalesLineItem>.create;
-  //for I := 0 to quantity-1 do
-  //                            ???
+  for I := 0 to quantity-1 do
+    lineItem.Insert(I,SalesLineItem);
 end;
 
 procedure TSale.makePayment; // (cashTendered)
