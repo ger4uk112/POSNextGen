@@ -34,14 +34,8 @@ implementation
 {$R *.dfm}
 
 procedure TForm1.actionPerformed(Sender: TObject);
-var
-  id: integer;
-  qty: integer;
 begin
-  // Registe.enterItem();
-  id:= strtoint(Edit1.Text);
-  qty:= strtoint(Edit2.Text);
-  Regicter.enterItem(id, qty);
+  //
 end;
 
 procedure TForm1.Button2Click(Sender: TObject);
@@ -51,7 +45,7 @@ end;
 
 procedure TForm1.FormCreate(Sender: TObject);
 begin
-  Regicter := TRegister.create;
+  //
 end;
 
 end.

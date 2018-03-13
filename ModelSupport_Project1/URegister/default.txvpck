@@ -4,150 +4,9 @@
     <property name="$defaultDiagram" value="true" />
     <property name="$metaclass" value="Package Diagram" />
     <property name="$name" value="default" />
-    <reference referencedUin="delphi:e_class:src:Project1:URegister.@unitclass">
-      <property name="$shortcutReference" value="true" />
-    </reference>
-    <reference referencedUin="delphi:e_class:src:Project1:URegister.TRegister">
-      <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="160,380,151,191" />
-      <property name="location_set_by_user" value="True" />
-      <reference referencedUin="delphi:e_field:src:Project1:URegister.TRegister.CurrentSale" />
-      <reference referencedUin="delphi:l_ast:src:Project1:URegister.TRegister.CurrentSale">
-        <property name="sourceAnchor" value="253,571" />
-        <property name="targetAnchor" value="520,665" />
-        <property name="bendpoints" value="253,665" />
-        <property name="bounds_setted_by_user" value="True" />
-      </reference>
-      <reference referencedUin="delphi:e_field:src:Project1:URegister.TRegister.Catalog" />
-      <reference referencedUin="delphi:l_ast:src:Project1:URegister.TRegister.Catalog">
-        <property name="sourceAnchor" value="311,412" />
-        <property name="targetAnchor" value="460,412" />
-        <property name="bendpoints" value="" />
-        <property name="bounds_setted_by_user" value="True" />
-      </reference>
-      <reference referencedUin="delphi:e_method:src:Project1:URegister.TRegister.endSale()" />
-      <reference referencedUin="delphi:e_method:src:Project1:URegister.TRegister.PRegister(UProductCatalog.TProductCatalog)" />
-      <reference referencedUin="delphi:e_method:src:Project1:URegister.TRegister.makeNewSale()" />
-      <reference referencedUin="delphi:e_method:src:Project1:URegister.TRegister.makePaymenr()" />
-      <reference referencedUin="delphi:e_method:src:Project1:URegister.TRegister.enterItem(System.Integer,System.Integer)" />
-      <reference referencedUin="delphi:e_method:src:Project1:URegister.TRegister.create()" />
-    </reference>
-    <reference referencedUin="delphi:e_class:src:Project1:UStore.TStore">
-      <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="100,180,194,161" />
-      <property name="location_set_by_user" value="True" />
-      <reference referencedUin="delphi:e_field:src:Project1:UStore.TStore.ProductCatalog" />
-      <reference referencedUin="delphi:l_ast:src:Project1:UStore.TStore.ProductCatalog">
-        <property name="sourceAnchor" value="294,318" />
-        <property name="targetAnchor" value="576,360" />
-        <property name="bendpoints" value="576,318" />
-        <property name="bounds_setted_by_user" value="True" />
-      </reference>
-      <reference referencedUin="delphi:e_field:src:Project1:UStore.TStore.fRegister" />
-      <reference referencedUin="delphi:l_ast:src:Project1:UStore.TStore.fRegister">
-        <property name="sourceAnchor" value="227,341" />
-        <property name="targetAnchor" value="227,380" />
-        <property name="bendpoints" value="" />
-      </reference>
-      <reference referencedUin="delphi:e_field:src:Project1:UStore.TStore.Sale" />
-      <reference referencedUin="delphi:l_ast:src:Project1:UStore.TStore.Sale">
-        <property name="sourceAnchor" value="140,341" />
-        <property name="targetAnchor" value="520,754" />
-        <property name="bendpoints" value="140,754" />
-        <property name="bounds_setted_by_user" value="True" />
-      </reference>
-      <reference referencedUin="delphi:e_field:src:Project1:UStore.TStore.Address" />
-      <reference referencedUin="delphi:l_ast:src:Project1:UStore.TStore.Address">
-        <property name="sourceAnchor" value="184,180" />
-        <property name="targetAnchor" value="184,127" />
-        <property name="bendpoints" value="" />
-        <property name="bounds_setted_by_user" value="True" />
-      </reference>
-      <reference referencedUin="delphi:e_field:src:Project1:UStore.TStore.name" />
-      <reference referencedUin="delphi:e_method:src:Project1:UStore.TStore.addSale()" />
-    </reference>
-    <reference referencedUin="delphi:e_class:src:Project1:UProductCatalog.TProductCatalog">
-      <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="460,360,265,116" />
-      <property name="location_set_by_user" value="True" />
-      <reference referencedUin="delphi:e_field:src:Project1:UProductCatalog.TProductCatalog.ProductDescription" />
-      <reference referencedUin="delphi:e_method:src:Project1:UProductCatalog.TProductCatalog.getProductSpec(UItemID.TItemID)" />
-      <reference referencedUin="delphi:e_method:src:Project1:UProductCatalog.TProductCatalog.getProductSpec(System.Integer)" />
-      <reference referencedUin="delphi:e_field:src:Project1:UProductCatalog.TProductCatalog.description" />
-      <reference referencedUin="delphi:e_method:src:Project1:UProductCatalog.TProductCatalog.ProductCatalog()" />
-      <reference referencedUin="delphi:e_method:src:Project1:UProductCatalog.TProductCatalog.getProductDesc(System.Integer)" />
-    </reference>
-    <reference referencedUin="delphi:e_class:src:Project1:USale.TSale">
-      <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="520,620,222,206" />
-      <property name="location_set_by_user" value="True" />
-      <reference referencedUin="delphi:e_field:src:Project1:USale.TSale.Payment" />
-      <reference referencedUin="delphi:l_ast:src:Project1:USale.TSale.Payment">
-        <property name="sourceAnchor" value="742,785" />
-        <property name="targetAnchor" value="900,785" />
-        <property name="bendpoints" value="" />
-        <property name="bounds_setted_by_user" value="True" />
-      </reference>
-      <reference referencedUin="delphi:e_field:src:Project1:USale.TSale.isComplete" />
-      <reference referencedUin="delphi:e_field:src:Project1:USale.TSale.time" />
-      <reference referencedUin="delphi:e_field:src:Project1:USale.TSale.lineItem" />
-      <reference referencedUin="delphi:e_method:src:Project1:USale.TSale.becomeComplete()" />
-      <reference referencedUin="delphi:e_method:src:Project1:USale.TSale.makeLineItem()" />
-      <reference referencedUin="delphi:e_method:src:Project1:USale.TSale.makePayment()" />
-      <reference referencedUin="delphi:e_method:src:Project1:USale.TSale.getTotal()" />
-      <reference referencedUin="delphi:e_method:src:Project1:USale.TSale.addLineItem(UProductDescription.TProductDescription,System.Integer)" />
-      <reference referencedUin="delphi:e_method:src:Project1:USale.TSale.makeLineItem(System.Integer)" />
-    </reference>
-    <reference referencedUin="delphi:e_class:src:Project1:UProductDescription.TProductDescription">
-      <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="800,360,253,114" />
-      <property name="location_set_by_user" value="True" />
-      <reference referencedUin="delphi:e_field:src:Project1:UProductDescription.TProductDescription.description" />
-      <reference referencedUin="delphi:e_field:src:Project1:UProductDescription.TProductDescription.price" />
-      <reference referencedUin="delphi:l_ast:src:Project1:UProductDescription.TProductDescription.price">
-        <property name="sourceAnchor" value="1053,433" />
-        <property name="targetAnchor" value="1160,433" />
-        <property name="bendpoints" value="" />
-      </reference>
-      <reference referencedUin="delphi:e_field:src:Project1:UProductDescription.TProductDescription.ItemID" />
-      <reference referencedUin="delphi:l_ast:src:Project1:UProductDescription.TProductDescription.ItemID">
-        <property name="sourceAnchor" value="1036,360" />
-        <property name="targetAnchor" value="1036,156" />
-        <property name="bendpoints" value="" />
-      </reference>
-    </reference>
-    <reference referencedUin="delphi:e_class:src:Project1:USalesLineItem.TSalesLineItem">
-      <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="840,620,198,131" />
-      <property name="location_set_by_user" value="True" />
-      <reference referencedUin="delphi:e_field:src:Project1:USalesLineItem.TSalesLineItem.quantity" />
-      <reference referencedUin="delphi:e_field:src:Project1:USalesLineItem.TSalesLineItem.description" />
-      <reference referencedUin="delphi:e_method:src:Project1:USalesLineItem.TSalesLineItem.getSubtotal()" />
-      <reference referencedUin="delphi:l_ast:src:Project1:USalesLineItem.TSalesLineItem.description">
-        <property name="sourceAnchor" value="939,620" />
-        <property name="targetAnchor" value="939,474" />
-        <property name="bendpoints" value="" />
-      </reference>
-      <reference referencedUin="delphi:e_method:src:Project1:USalesLineItem.TSalesLineItem.create(System.Integer)" />
-    </reference>
-    <reference referencedUin="delphi:e_class:src:Project1:UPayment.TPayment">
-      <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="900,760,136,116" />
-      <property name="location_set_by_user" value="True" />
-      <reference referencedUin="delphi:e_field:src:Project1:UPayment.TPayment.Amount" />
-      <reference referencedUin="delphi:l_ast:src:Project1:UPayment.TPayment.Amount">
-        <property name="sourceAnchor" value="1036,801" />
-        <property name="targetAnchor" value="1238,436" />
-        <property name="bendpoints" value="1230,801" />
-        <property name="bounds_setted_by_user" value="True" />
-      </reference>
-      <reference referencedUin="delphi:e_method:src:Project1:UPayment.TPayment.create()" />
-      <reference referencedUin="delphi:e_method:src:Project1:UPayment.TPayment.Payment(System.Integer)" />
-      <reference referencedUin="delphi:e_method:src:Project1:UPayment.TPayment.getAmount()" />
-    </reference>
     <reference referencedUin="delphi:e_class:src:Project1:UAddress.TAddress">
       <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="120,60,129,67" />
+      <property name="bounds" value="120,60,105,36" />
       <property name="location_set_by_user" value="True" />
     </reference>
     <reference referencedUin="delphi:e_class:src:Project1:UMoney.TMoney">
@@ -173,13 +32,15 @@
       <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.actionPerformed(System.TObject)" />
       <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.Button2Click(System.TObject)" />
       <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Regicter" />
-      <reference referencedUin="delphi:l_ast:src:Project1:Unit1.TForm1.Regicter">
-        <property name="sourceAnchor" value="397,275" />
-        <property name="targetAnchor" value="311,466" />
-        <property name="bendpoints" value="397,466" />
-        <property name="bounds_setted_by_user" value="True" />
-      </reference>
       <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.FormCreate(System.TObject)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:URegister.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:URegister.TRegister">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="380,540,86,67" />
+      <property name="location_set_by_user" value="True" />
     </reference>
   </view>
 </nodeSet>

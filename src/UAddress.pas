@@ -4,9 +4,7 @@ interface
 
 type
 
-  TAddress = class
-
-  end;
+  TAddress = string;
 
 implementation
 
