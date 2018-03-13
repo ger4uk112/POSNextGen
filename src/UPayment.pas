@@ -11,18 +11,24 @@ type
     /// <link>aggregation</link>
     Amount: TMoney;
   published
-    constructor create;
+    // constructor create; // (cashTendered)
   public
-
+    procedure Payment(cachTender: TMoney);
+    function getAmount: TMoney;
   end;
 
 implementation
 
 { TPayment }
 
-constructor TPayment.create; // (cashTendered)
+function TPayment.getAmount: TMoney;
 begin
-//
+  result := Amount;
+end;
+
+procedure TPayment.Payment(cachTender: TMoney);
+begin
+  Amount := cachTender;
 end;
 
 end.

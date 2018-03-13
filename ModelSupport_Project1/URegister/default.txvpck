@@ -68,11 +68,14 @@
     </reference>
     <reference referencedUin="delphi:e_class:src:Project1:UProductCatalog.TProductCatalog">
       <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="460,360,310,101" />
+      <property name="bounds" value="460,360,265,116" />
       <property name="location_set_by_user" value="True" />
       <reference referencedUin="delphi:e_field:src:Project1:UProductCatalog.TProductCatalog.ProductDescription" />
       <reference referencedUin="delphi:e_method:src:Project1:UProductCatalog.TProductCatalog.getProductSpec(UItemID.TItemID)" />
       <reference referencedUin="delphi:e_method:src:Project1:UProductCatalog.TProductCatalog.getProductSpec(System.Integer)" />
+      <reference referencedUin="delphi:e_field:src:Project1:UProductCatalog.TProductCatalog.description" />
+      <reference referencedUin="delphi:e_method:src:Project1:UProductCatalog.TProductCatalog.ProductCatalog()" />
+      <reference referencedUin="delphi:e_method:src:Project1:UProductCatalog.TProductCatalog.getProductDesc(System.Integer)" />
     </reference>
     <reference referencedUin="delphi:e_class:src:Project1:USale.TSale">
       <property name="$shortcutReference" value="true" />
@@ -129,7 +132,7 @@
     </reference>
     <reference referencedUin="delphi:e_class:src:Project1:UPayment.TPayment">
       <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="900,760,136,101" />
+      <property name="bounds" value="900,760,136,116" />
       <property name="location_set_by_user" value="True" />
       <reference referencedUin="delphi:e_field:src:Project1:UPayment.TPayment.Amount" />
       <reference referencedUin="delphi:l_ast:src:Project1:UPayment.TPayment.Amount">
@@ -139,6 +142,8 @@
         <property name="bounds_setted_by_user" value="True" />
       </reference>
       <reference referencedUin="delphi:e_method:src:Project1:UPayment.TPayment.create()" />
+      <reference referencedUin="delphi:e_method:src:Project1:UPayment.TPayment.Payment(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:Project1:UPayment.TPayment.getAmount()" />
     </reference>
     <reference referencedUin="delphi:e_class:src:Project1:UAddress.TAddress">
       <property name="$shortcutReference" value="true" />
