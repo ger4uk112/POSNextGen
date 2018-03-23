@@ -19,7 +19,7 @@ type
     Button2: TButton;
     procedure actionPerformed(Sender: TObject);
     procedure Button2Click(Sender: TObject);
-    procedure FormCreate(Sender: TObject);
+    procedure FormShow(Sender: TObject);
   private
     Sale: TSale;
     /// <link>aggregation</link>
@@ -46,19 +46,25 @@ begin
   qty := strtoint(Edit2.Text);
   Regicter.makeNewSale;
   Regicter.enterItem(id, qty);
+
+  Edit1.Text := '0';
+  Edit2.Text := '0';
 end;
 
 procedure TForm1.Button2Click(Sender: TObject);
 begin
   Form2.Visible := true;
   Form2.Edit1.Text := IntToStr(Regicter.getTotalSale);
+  self.Visible := false;
 end;
 
-procedure TForm1.FormCreate(Sender: TObject);
+procedure TForm1.FormShow(Sender: TObject);
 begin
+  Edit1.Text := '0';
+  Edit2.Text := '0';
+
   catalog := TProductCatalog.create;
   Regicter := TRegister.create(catalog);
-
 end;
 
 end.
