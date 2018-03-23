@@ -19,7 +19,7 @@ type
     procedure enterItem(id: TItemID; quantity: integer);
     procedure makeNewSale;
     procedure makePayment(cachTendered: TMoney);
-    //farid
+    // farid
     function getTotalSale: TMoney;
   end;
 
