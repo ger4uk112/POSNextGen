@@ -12,14 +12,14 @@ type
   private
     lineItems: TList<TSalesLineItem>;
     data: TDate;
-    Complete: boolean;  // isComplete
+    Complete: boolean; // isComplete
     Payment: TPayment;
   published
     constructor create;
   public
     function getBalance: TMoney;
     procedure becomeComplete;
-    function isComplete: boolean ;
+    function isComplete: boolean;
     procedure makeLineItem(decs: TProductDescription; quantity: integer);
     function getTotal: TMoney;
     procedure makePayment(cachTendered: TMoney);
@@ -38,7 +38,7 @@ constructor TSale.create;
 begin
   lineItems := TList<TSalesLineItem>.create;
   Complete := false;
-  Payment:= TPayment.Create;
+  Payment := TPayment.create;
 end;
 
 function TSale.getBalance: TMoney;
@@ -53,7 +53,8 @@ var
 begin
   total := 0;
   subTotal := 0;
-  for SalesLineItem in lineItems do begin
+  for SalesLineItem in lineItems do
+  begin
     subTotal := SalesLineItem.getSubTotal;
     total := total + subTotal;
   end;
@@ -70,14 +71,14 @@ var
   SalesLineItem: TSalesLineItem;
   i: integer;
 begin
-  SalesLineItem:= TSalesLineItem.Create;
+  SalesLineItem := TSalesLineItem.create;
   SalesLineItem.SalesLineItem(decs, quantity);
   i := lineItems.Add(SalesLineItem);
 end;
 
 procedure TSale.makePayment(cachTendered: TMoney);
 begin
-  Payment:= TPayment.Create;
+  Payment := TPayment.create;
   Payment.Payment(cachTendered);
 end;
 

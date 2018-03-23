@@ -15,7 +15,8 @@ type
     description: string;
   published
   public
-    procedure ProductDescription(id: TItemID; price: TMoney; description: string);
+    procedure ProductDescription(id: TItemID; price: TMoney;
+      description: string);
     function getId: TItemID;
     function getPrice: TMoney;
     function getDescription: string;

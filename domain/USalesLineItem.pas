@@ -27,7 +27,8 @@ begin
   result := description.getPrice * quantity;
 end;
 
-procedure TSalesLineItem.SalesLineItem(desc: TProductDescription; quantity: integer);
+procedure TSalesLineItem.SalesLineItem(desc: TProductDescription;
+  quantity: integer);
 begin
   self.description := desc;
   self.quantity := quantity;

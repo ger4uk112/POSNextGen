@@ -2,6 +2,7 @@ program Project1;
 
 uses
   Vcl.Forms,
+  Unit3 in 'ui\Unit3.pas' {Form3},
   Unit1 in 'ui\Unit1.pas' {Form1},
   UAddress in 'src\UAddress.pas',
   UMoney in 'src\UMoney.pas',
@@ -12,13 +13,17 @@ uses
   URegister in 'domain\URegister.pas',
   USale in 'domain\USale.pas',
   USalesLineItem in 'domain\USalesLineItem.pas',
-  UStore in 'domain\UStore.pas';
+  UStore in 'domain\UStore.pas',
+  Unit2 in 'ui\Unit2.pas' {Form2};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm3, Form3);
   Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm2, Form2);
+
   Application.Run;
 end.

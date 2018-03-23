@@ -85,6 +85,10 @@
 			<DelphiCompile Include="$(MainSource)">
 				<MainSource>MainSource</MainSource>
 			</DelphiCompile>
+			<DCCReference Include="ui\Unit3.pas">
+				<Form>Form3</Form>
+				<FormType>dfm</FormType>
+			</DCCReference>
 			<DCCReference Include="ui\Unit1.pas">
 				<Form>Form1</Form>
 			</DCCReference>
@@ -98,6 +102,9 @@
 			<DCCReference Include="domain\USale.pas"/>
 			<DCCReference Include="domain\USalesLineItem.pas"/>
 			<DCCReference Include="domain\UStore.pas"/>
+			<DCCReference Include="ui\Unit2.pas">
+				<Form>Form2</Form>
+			</DCCReference>
 			<None Include="ModelSupport_Project1\default.txaPackage"/>
 			<None Include="ModelSupport_Project1\default.txvpck"/>
 			<None Include="ModelSupport_Project1\URegister\default.txvpck"/>
@@ -197,12 +204,12 @@
 							<RemoteDir>.\</RemoteDir>
 						</Platform>
 					</DeployFile>
-					<DeployFile Class="ProjectFile" Configuration="Debug" LocalName="ModelSupport_Project1\UCashPayment\default.txaPackage">
+					<DeployFile Class="ProjectFile" Configuration="Debug" LocalName="ModelSupport_Project1\UProductDescription\default.txvpck">
 						<Platform Name="Win32">
 							<RemoteDir>.\</RemoteDir>
 						</Platform>
 					</DeployFile>
-					<DeployFile Class="ProjectFile" Configuration="Debug" LocalName="ModelSupport_Project1\UProductDescription\default.txvpck">
+					<DeployFile Class="ProjectFile" Configuration="Debug" LocalName="ModelSupport_Project1\UCashPayment\default.txaPackage">
 						<Platform Name="Win32">
 							<RemoteDir>.\</RemoteDir>
 						</Platform>
@@ -242,12 +249,12 @@
 							<RemoteDir>.\</RemoteDir>
 						</Platform>
 					</DeployFile>
-					<DeployFile Class="ProjectFile" Configuration="Debug" LocalName="ModelSupport_Project1\UMoney\default.txvpck">
+					<DeployFile Class="ProjectFile" Configuration="Debug" LocalName="ModelSupport_Project1\default.txvpck">
 						<Platform Name="Win32">
 							<RemoteDir>.\</RemoteDir>
 						</Platform>
 					</DeployFile>
-					<DeployFile Class="ProjectFile" Configuration="Debug" LocalName="ModelSupport_Project1\default.txvpck">
+					<DeployFile Class="ProjectFile" Configuration="Debug" LocalName="ModelSupport_Project1\UMoney\default.txvpck">
 						<Platform Name="Win32">
 							<RemoteDir>.\</RemoteDir>
 						</Platform>

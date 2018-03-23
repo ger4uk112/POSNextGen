@@ -6,7 +6,8 @@ uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
   System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls,
-  URegister, UProductCatalog;
+  URegister, UProductCatalog, USale,
+  Unit2;
 
 type
   TForm1 = class(TForm)
@@ -20,6 +21,7 @@ type
     procedure Button2Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private
+    Sale: TSale;
     /// <link>aggregation</link>
     Regicter: TRegister;
     catalog: TProductCatalog;
@@ -40,21 +42,22 @@ var
   qty: integer;
 begin
   // Registe.enterItem();
-  id:= strtoint(Edit1.Text);
-  qty:= strtoint(Edit2.Text);
+  id := strtoint(Edit1.Text);
+  qty := strtoint(Edit2.Text);
   Regicter.makeNewSale;
   Regicter.enterItem(id, qty);
 end;
 
 procedure TForm1.Button2Click(Sender: TObject);
 begin
-  //
+  Form2.Visible := true;
+  Form2.Edit1.Text := IntToStr(Regicter.getTotalSale);
 end;
 
 procedure TForm1.FormCreate(Sender: TObject);
 begin
-    catalog:= TProductCatalog.create;
-    Regicter:= TRegister.create(catalog);
+  catalog := TProductCatalog.create;
+  Regicter := TRegister.create(catalog);
 
 end;
 

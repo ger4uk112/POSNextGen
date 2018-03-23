@@ -25,7 +25,7 @@ implementation
 constructor TStore.create;
 begin
   catalog := TProductCatalog.create;
-  register1:= TRegister.create(catalog);
+  register1 := TRegister.create(catalog);
 end;
 
 function TStore.getRegister: TRegister;
