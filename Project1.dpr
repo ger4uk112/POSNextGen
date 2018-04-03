@@ -14,7 +14,8 @@ uses
   USale in 'domain\USale.pas',
   USalesLineItem in 'domain\USalesLineItem.pas',
   UStore in 'domain\UStore.pas',
-  Unit2 in 'ui\Unit2.pas' {Form2};
+  Unit2 in 'ui\Unit2.pas' {Form2},
+  UMyADOConnection in 'src\UMyADOConnection.pas';
 
 {$R *.res}
 
@@ -24,6 +25,5 @@ begin
   Application.CreateForm(TForm3, Form3);
   Application.CreateForm(TForm1, Form1);
   Application.CreateForm(TForm2, Form2);
-
   Application.Run;
 end.

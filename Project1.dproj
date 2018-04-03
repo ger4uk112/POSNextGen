@@ -105,6 +105,7 @@
 			<DCCReference Include="ui\Unit2.pas">
 				<Form>Form2</Form>
 			</DCCReference>
+			<DCCReference Include="src\UMyADOConnection.pas"/>
 			<None Include="ModelSupport_Project1\default.txaPackage"/>
 			<None Include="ModelSupport_Project1\default.txvpck"/>
 			<None Include="ModelSupport_Project1\URegister\default.txvpck"/>
@@ -204,12 +205,12 @@
 							<RemoteDir>.\</RemoteDir>
 						</Platform>
 					</DeployFile>
-					<DeployFile Class="ProjectFile" Configuration="Debug" LocalName="ModelSupport_Project1\UProductDescription\default.txvpck">
+					<DeployFile Class="ProjectFile" Configuration="Debug" LocalName="ModelSupport_Project1\UCashPayment\default.txaPackage">
 						<Platform Name="Win32">
 							<RemoteDir>.\</RemoteDir>
 						</Platform>
 					</DeployFile>
-					<DeployFile Class="ProjectFile" Configuration="Debug" LocalName="ModelSupport_Project1\UCashPayment\default.txaPackage">
+					<DeployFile Class="ProjectFile" Configuration="Debug" LocalName="ModelSupport_Project1\UProductDescription\default.txvpck">
 						<Platform Name="Win32">
 							<RemoteDir>.\</RemoteDir>
 						</Platform>
@@ -249,12 +250,12 @@
 							<RemoteDir>.\</RemoteDir>
 						</Platform>
 					</DeployFile>
-					<DeployFile Class="ProjectFile" Configuration="Debug" LocalName="ModelSupport_Project1\default.txvpck">
+					<DeployFile Class="ProjectFile" Configuration="Debug" LocalName="ModelSupport_Project1\UMoney\default.txvpck">
 						<Platform Name="Win32">
 							<RemoteDir>.\</RemoteDir>
 						</Platform>
 					</DeployFile>
-					<DeployFile Class="ProjectFile" Configuration="Debug" LocalName="ModelSupport_Project1\UMoney\default.txvpck">
+					<DeployFile Class="ProjectFile" Configuration="Debug" LocalName="ModelSupport_Project1\default.txvpck">
 						<Platform Name="Win32">
 							<RemoteDir>.\</RemoteDir>
 						</Platform>
@@ -654,6 +655,9 @@
 					<Platform value="Win32">True</Platform>
 				</Platforms>
 				<ModelSupport>True</ModelSupport>
+				<UnitTesting>
+					<TestProjectName>D:\_GIT\POSNextGen\Test\Project1Tests.dproj</TestProjectName>
+				</UnitTesting>
 			</BorlandProject>
 			<ProjectFileVersion>12</ProjectFileVersion>
 		</ProjectExtensions>
