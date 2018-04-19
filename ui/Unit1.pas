@@ -17,7 +17,7 @@ type
     Edit2: TEdit;
     Button1: TButton;
     Button2: TButton;
-    procedure actionPerformed(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure FormShow(Sender: TObject);
   private
@@ -36,7 +36,7 @@ implementation
 
 {$R *.dfm}
 
-procedure TForm1.actionPerformed(Sender: TObject);
+procedure TForm1.Button1Click(Sender: TObject);
 var
   id: integer;
   qty: integer;
@@ -44,7 +44,7 @@ begin
   // Registe.enterItem();
   id := strtoint(Edit1.Text);
   qty := strtoint(Edit2.Text);
-  Regicter.makeNewSale;
+
   Regicter.enterItem(id, qty);
 
   Edit1.Text := '0';
@@ -65,6 +65,7 @@ begin
 
   catalog := TProductCatalog.create;
   Regicter := TRegister.create(catalog);
+  Regicter.makeNewSale;
 end;
 
 end.
