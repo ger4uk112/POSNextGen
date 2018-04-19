@@ -106,6 +106,10 @@
 				<Form>Form2</Form>
 			</DCCReference>
 			<DCCReference Include="src\UMyADOConnection.pas"/>
+			<DCCReference Include="polimorphism\UTaxCalculatorAdapter.pas"/>
+			<DCCReference Include="polimorphism\UTaxMasterAdapter.pas"/>
+			<DCCReference Include="polimorphism\UGoodAsGoldTaxPro.pas"/>
+			<DCCReference Include="domain\UTaxLineItem.pas"/>
 			<None Include="ModelSupport_Project1\default.txaPackage"/>
 			<None Include="ModelSupport_Project1\default.txvpck"/>
 			<None Include="ModelSupport_Project1\URegister\default.txvpck"/>

@@ -15,7 +15,11 @@ uses
   USalesLineItem in 'domain\USalesLineItem.pas',
   UStore in 'domain\UStore.pas',
   Unit2 in 'ui\Unit2.pas' {Form2},
-  UMyADOConnection in 'src\UMyADOConnection.pas';
+  UMyADOConnection in 'src\UMyADOConnection.pas',
+  UTaxCalculatorAdapter in 'polimorphism\UTaxCalculatorAdapter.pas',
+  UTaxMasterAdapter in 'polimorphism\UTaxMasterAdapter.pas',
+  UGoodAsGoldTaxPro in 'polimorphism\UGoodAsGoldTaxPro.pas',
+  UTaxLineItem in 'domain\UTaxLineItem.pas';
 
 {$R *.res}
 
