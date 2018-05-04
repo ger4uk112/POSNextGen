@@ -19,7 +19,8 @@ uses
   UTaxCalculatorAdapter in 'polimorphism\UTaxCalculatorAdapter.pas',
   UTaxMasterAdapter in 'polimorphism\UTaxMasterAdapter.pas',
   UGoodAsGoldTaxPro in 'polimorphism\UGoodAsGoldTaxPro.pas',
-  UTaxLineItem in 'domain\UTaxLineItem.pas';
+  UTaxLineItem in 'domain\UTaxLineItem.pas',
+  UPersistentStorage in 'src\UPersistentStorage.pas';
 
 {$R *.res}
 

@@ -3,12 +3,13 @@ unit USale;
 interface
 
 uses
+  UPersistentStorage,
   USalesLineItem, UPayment, UMoney, UProductDescription,
   SysUtils, Generics.Collections, Generics.Defaults;
 
 type
 
-  TSale = class
+  TSale = class(TPersistentStorage)
   private
     lineItems: TList<TSalesLineItem>;
     data: TDate;

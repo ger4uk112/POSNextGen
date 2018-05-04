@@ -21,7 +21,7 @@ type
     procedure Button2Click(Sender: TObject);
     procedure FormShow(Sender: TObject);
   private
-    Sale: TSale;
+    //Sale: TSale;
     /// <link>aggregation</link>
     Regicter: TRegister;
     catalog: TProductCatalog;
