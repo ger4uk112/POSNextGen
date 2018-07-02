@@ -19,8 +19,10 @@ type
     Button2: TButton;
     SpeedButton1: TSpeedButton;
     Image1: TImage;
+    Image3: TImage;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
+    procedure Button6Click(Sender: TObject);
     procedure Button7Click(Sender: TObject);
     procedure FormShow(Sender: TObject);
   private
@@ -74,6 +76,11 @@ end;
 procedure TForm1.Button7Click(Sender: TObject);
 begin
   showmessage('-1')
+end;
+
+procedure TForm1.Button6Click(Sender: TObject);
+begin
+  showmessage('+1')
 end;
 
 end.
