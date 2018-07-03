@@ -7,7 +7,7 @@ uses
   System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls,
   URegister, UProductCatalog, USale,
-  Unit2, Vcl.Buttons, Vcl.Imaging.pngimage, Vcl.ExtCtrls;
+  Unit2, Vcl.Buttons, Vcl.Imaging.pngimage, Vcl.ExtCtrls, Vcl.Imaging.jpeg;
 
 type
   TForm1 = class(TForm)
@@ -21,6 +21,7 @@ type
     Image1: TImage;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
+    procedure Button7Click(Sender: TObject);
     procedure FormShow(Sender: TObject);
   private
     //Sale: TSale;
@@ -68,6 +69,11 @@ begin
   catalog := TProductCatalog.create;
   Regicter := TRegister.create(catalog);
   Regicter.makeNewSale;
+end;
+
+procedure TForm1.Button7Click(Sender: TObject);
+begin
+  showmessage('-1')
 end;
 
 end.
