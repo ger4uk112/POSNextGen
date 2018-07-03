@@ -26,6 +26,7 @@ type
     procedure Button5Click(Sender: TObject);
     procedure Button6Click(Sender: TObject);
     procedure Button8Click(Sender: TObject);
+    procedure Button7Click(Sender: TObject);
     procedure FormShow(Sender: TObject);
   private
     //Sale: TSale;
@@ -87,7 +88,7 @@ begin
   Edit1.Text := '100';
   Edit2.Text := '0';
 end;
-procedure TForm1.Button8Click(Sender: TObject);
+procedure TForm1.Button7Click(Sender: TObject);
 var
   id: integer;
   qty: integer;
@@ -104,7 +105,10 @@ procedure TForm1.Button6Click(Sender: TObject);
 begin
   showmessage('+1')
 end;
-
+procedure TForm1.Button8Click(Sender: TObject);
+begin
+  showmessage('-1')
+end;
 
 
 end.
