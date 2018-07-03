@@ -7,7 +7,7 @@ uses
   System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls,
   URegister, UProductCatalog, USale,
-  Unit2;
+  Unit2, Vcl.Imaging.jpeg, Vcl.ExtCtrls;
 
 type
   TForm1 = class(TForm)
@@ -17,8 +17,10 @@ type
     Edit2: TEdit;
     Button1: TButton;
     Button2: TButton;
+    Image1: TImage;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
     procedure FormShow(Sender: TObject);
   private
     //Sale: TSale;
@@ -42,8 +44,10 @@ var
   qty: integer;
 begin
   // Registe.enterItem();
-  id := strtoint(Edit1.Text);
+ // id := strtoint(Edit1.Text);
   qty := strtoint(Edit2.Text);
+
+  //TForm1.Button3.LoadFromFile('C:\Users\студ\Desktop\POSNextGen\Project\4');
 
   Regicter.enterItem(id, qty);
 
@@ -56,6 +60,17 @@ begin
   Form2.Visible := true;
   Form2.Edit1.Text := IntToStr(Regicter.getTotalSale);
   self.Visible := false;
+end;
+
+procedure TForm1.Button3Click(Sender: TObject);
+var
+  id: integer;
+  qty: integer;
+begin
+  // Registe.enterItem();
+  Edit1.Text := '100';
+  id:=100;
+  Edit2.Text := '0';
 end;
 
 procedure TForm1.FormShow(Sender: TObject);
