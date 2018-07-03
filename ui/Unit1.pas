@@ -7,7 +7,7 @@ uses
   System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls,
   URegister, UProductCatalog, USale,
-  Unit2;
+  Unit2, Vcl.ExtCtrls, Vcl.Imaging.jpeg;
 
 type
   TForm1 = class(TForm)
@@ -17,6 +17,7 @@ type
     Edit2: TEdit;
     Button1: TButton;
     Button2: TButton;
+    Image1: TImage;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure FormShow(Sender: TObject);
