@@ -19,8 +19,12 @@ type
     Button2: TButton;
     SpeedButton1: TSpeedButton;
     Image1: TImage;
+    Image3: TImage;
+    Image4: TImage;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
+    procedure Button5Click(Sender: TObject);
+    procedure Button6Click(Sender: TObject);
     procedure Button7Click(Sender: TObject);
     procedure FormShow(Sender: TObject);
   private
@@ -71,9 +75,28 @@ begin
   Regicter.makeNewSale;
 end;
 
+procedure TForm1.Button5Click(Sender: TObject);
+var
+  id: integer;
+  qty: integer;
+begin
+  // Registe.enterItem();
+  id := 100;
+  qty := 0;
+
+  Edit1.Text := '100';
+  Edit2.Text := '0';
+end;
 procedure TForm1.Button7Click(Sender: TObject);
 begin
   showmessage('-1')
 end;
+
+procedure TForm1.Button6Click(Sender: TObject);
+begin
+  showmessage('+1')
+end;
+
+
 
 end.
