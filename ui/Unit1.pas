@@ -20,11 +20,12 @@ type
     Image4: TImage;
     Image5: TImage;
     Image6: TImage;
+    Image7: TImage;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button5Click(Sender: TObject);
     procedure Button6Click(Sender: TObject);
-    procedure Button7Click(Sender: TObject);
+    procedure Button8Click(Sender: TObject);
     procedure FormShow(Sender: TObject);
   private
     //Sale: TSale;
@@ -86,9 +87,17 @@ begin
   Edit1.Text := '100';
   Edit2.Text := '0';
 end;
-procedure TForm1.Button7Click(Sender: TObject);
+procedure TForm1.Button8Click(Sender: TObject);
+var
+  id: integer;
+  qty: integer;
 begin
-  showmessage('-1')
+  // Registe.enterItem();
+  id := 200;
+  qty := 0;
+
+  Edit1.Text := '200';
+  Edit2.Text := '0';
 end;
 
 procedure TForm1.Button6Click(Sender: TObject);
