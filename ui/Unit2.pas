@@ -6,14 +6,14 @@ uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
   System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Imaging.pngimage,
-  Vcl.ExtCtrls;
+  Vcl.ExtCtrls, Vcl.Imaging.jpeg;
 
 type
   TForm2 = class(TForm)
     Edit1: TEdit;
     Label1: TLabel;
-    Button1: TButton;
     Image1: TImage;
+    Image2: TImage;
     procedure Button1Click(Sender: TObject);
   private
   public
