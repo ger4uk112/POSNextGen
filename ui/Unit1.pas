@@ -15,12 +15,11 @@ type
     Label2: TLabel;
     Edit1: TEdit;
     Edit2: TEdit;
-    Button1: TButton;
     Button2: TButton;
-    SpeedButton1: TSpeedButton;
     Image1: TImage;
     Image3: TImage;
     Image4: TImage;
+    Image5: TImage;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button5Click(Sender: TObject);
