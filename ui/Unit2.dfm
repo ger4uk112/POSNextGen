@@ -6241,10 +6241,10 @@ object Form2: TForm2
     Caption = #1054#1073#1097#1072#1103' '#1089#1090#1086#1080#1084#1086#1089#1090#1100
   end
   object Image2: TImage
-    Left = 32
-    Top = 80
-    Width = 97
-    Height = 77
+    Left = 280
+    Top = 8
+    Width = 49
+    Height = 57
     Cursor = crHandPoint
     Picture.Data = {
       0A544A504547496D616765DC150000FFD8FFE000104A46494600010100000100
